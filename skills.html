@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>MilkUX — Skills</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="assets/logo.png" />
+</head>
+<body class="theme-dark">
+  <div id="preloader" class="preloader">
+    <div class="preloader-inner">
+      <div class="neon-dot"></div>
+      <div class="loading-text">MilkUX</div>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo" aria-label="MilkUX">
+        <img src="assets/logo.png" alt="MilkUX logo" />
+        <span class="logo-text">MilkUX</span>
+      </a>
+
+      <nav class="nav" id="navbar">
+        <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="skills.html" class="nav-link">Skills</a></li>
+          <li><a href="projects.html" class="nav-link">Projects</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">🌗</button>
+        <a class="btn btn-ghost" href="assets/cv.pdf" download>Download CV</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section container">
+      <h1 class="section-title reveal-up">Skills</h1>
+
+      <div class="skills-grid">
+        <div class="skill-card reveal-up">
+          <h4>Interaction Design</h4>
+          <div class="meter"><span style="width:90%"></span></div>
+        </div>
+        <div class="skill-card reveal-up">
+          <h4>Visual Design</h4>
+          <div class="meter"><span style="width:95%"></span></div>
+        </div>
+        <div class="skill-card reveal-up">
+          <h4>Prototyping</h4>
+          <div class="meter"><span style="width:85%"></span></div>
+        </div>
+        <div class="skill-card reveal-up">
+          <h4>User Research</h4>
+          <div class="meter"><span style="width:80%"></span></div>
+        </div>
+        <div class="skill-card reveal-up">
+          <h4>Design Systems</h4>
+          <div class="meter"><span style="width:88%"></span></div>
+        </div>
+        <div class="skill-card reveal-up">
+          <h4>Front-end (HTML/CSS/JS)</h4>
+          <div class="meter"><span style="width:70%"></span></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-left">
+        <a href="index.html" class="logo small">
+          <img src="assets/logo.png" alt="logo" />
+          <span>MilkUX</span>
+        </a>
+        <p class="muted">© <span id="year-skills"></span> MilkUX — Crafted with neon.</p>
+      </div>
+      <div class="footer-right">
+        <nav class="footer-nav">
+          <a href="about.html">About</a>
+          <a href="projects.html">Projects</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

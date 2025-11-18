@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>MilkUX — Projects</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="assets/logo.png" />
+</head>
+<body class="theme-dark">
+  <div id="preloader" class="preloader">
+    <div class="preloader-inner">
+      <div class="neon-dot"></div>
+      <div class="loading-text">MilkUX</div>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo" aria-label="MilkUX">
+        <img src="assets/logo.png" alt="MilkUX logo" />
+        <span class="logo-text">MilkUX</span>
+      </a>
+
+      <nav class="nav" id="navbar">
+        <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="skills.html" class="nav-link">Skills</a></li>
+          <li><a href="projects.html" class="nav-link">Projects</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">🌗</button>
+        <a class="btn btn-ghost" href="assets/cv.pdf" download>Download CV</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section container">
+      <h1 class="section-title reveal-up">Projects</h1>
+
+      <div class="projects-grid">
+        <article class="project-card neon-card reveal-up">
+          <img src="assets/project1.jpg" alt="">
+          <div class="card-body">
+            <h3>Project One</h3>
+            <p>Redesign for conversion-focused dashboard.</p>
+            <div class="card-actions">
+              <a class="btn btn-primary glow" href="#">Case study</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card neon-card reveal-up">
+          <img src="assets/project2.jpg" alt="">
+          <div class="card-body">
+            <h3>Project Two</h3>
+            <p>Design system & component library.</p>
+            <div class="card-actions">
+              <a class="btn btn-primary glow" href="#">Case study</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card neon-card reveal-up">
+          <img src="assets/project3.jpg" alt="">
+          <div class="card-body">
+            <h3>Project Three</h3>
+            <p>User onboarding & analytics.</p>
+            <div class="card-actions">
+              <a class="btn btn-primary glow" href="#">Case study</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- repeat as needed -->
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-left">
+        <a href="index.html" class="logo small">
+          <img src="assets/logo.png" alt="logo" />
+          <span>MilkUX</span>
+        </a>
+        <p class="muted">© <span id="year-projects"></span> MilkUX — Crafted with neon.</p>
+      </div>
+      <div class="footer-right">
+        <nav class="footer-nav">
+          <a href="about.html">About</a>
+          <a href="skills.html">Skills</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
